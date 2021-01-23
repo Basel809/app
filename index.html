@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  
+   
+    
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="css/all.min.css"/>
+
+
+
+
+
+
+<style>
+
+    #body{
+        
+
+
+
+    }
+    #contenar{
+        width: 80%;
+       
+        margin: auto;
+        font-family: 'Staatliches', cursive;
+        
+
+    }
+    #login{
+
+    }
+    #login{
+        width: 80%;
+        height: 700px;
+        background-image: url(background3.webp);
+       
+    
+        margin: auto;
+        position: static;
+        
+    }
+    
+
+.form-control{
+    width: 50%;
+    margin: auto;
+   
+  
+}
+.bar-collapse{
+    height: 20px;!important
+}
+.form-floating{
+    color: white;
+    padding: right 20px;!important
+}
+
+.p3{
+
+    width: 80%;
+    height: 1300px;
+    
+    
+    margin: auto;
+}
+#bec1{
+
+  justify-content:center 
+  center; margin: 200px 60px;
+
+
+}
+#p4{
+  width: 80%;
+  height: 700px;
+  margin: auto;
+
+
+
+
+}
+#p5{
+  width: 80%;
+  height: 1200px;
+  margin: auto;
+  
+
+
+
+
+}
+#footer{
+width: 80%;
+height: 500px;
+margin: auto;
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #0000007a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 10px;
+
+
+
+
+
+}
+/* نص ذاخل الفوتر  */
+#text-footer{
+float: right;
+width: 20%;
+height: 200px;
+
+
+
+
+
+}
+
+
+</style>
+
+</head>
+<body id="body">
+  <div style="width: 80%; height: 70px;  margin: auto;" class="sticky-top" >
+  <img src="logo-alt.webp">
+
+  </div>
+  <div style="width: 80%; height: 42px; margin: auto;">
+    <ul class="nav justify-content-end" style="margin-top: auto;">
+      <li class="nav-item" ><button type="button"  class="nav-link btn btn-outline-dark" href="C:\Users\alama\Desktop\مشروع باسل\login.html"> Home </button></li>
+      <li class="nav-item" ><button type="button"  class="nav-link btn btn-outline-dark" href="C:\Users\alama\Desktop\مشروع باسل\moh.html">sign in </button></li>
+      <li class="nav-item" ><button type="button"  class="nav-link btn btn-outline-dark" href="C:\Users\alama\Desktop\مشروع باسل\twa.html">Technical support</button></li>
+  </ul>
+  </div>
+    <div id="contenar">
+ 
+    <!-- كلاس لوضع صفحة التسجيل -->
+    </div>
+    <
+    <div id="login">
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark  " style="overflow: auto;  background: #000000; background: -webkit-linear-gradient(to right, #000000, #434343);background: linear-gradient(to right, #000000, #434343); ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"  style="color: floralwhite;">BSH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"  style="color: floralwhite;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"  style="color: floralwhite;">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style="color: floralwhite;">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" >Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"  style="color: floralwhite;">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="btn btn-light" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- البريد والباسبورد -->
+  <div id="bec1" >
+    <form>
+  <div class="form-floating mb-3" >
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"  >
+    <label for="floatingInput" >Email address</label>
+  </div>
+  <div class="form-floating" style="padding-bottom: 100px;">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword" ">Password</label>
+  </div>
+  <div id="but" style="margin: auto; padding: 0px 280px; ">
+    <button type="submit" class="btn btn-primary" style="height: auto;width: 200px; ">تسجيل الذخول</button>
+    <button type="button" class="btn btn-secondary" style="position: relative;left: 200px; width: 200px;">انشاء حساب </button>
+</div>
+</form>
+</div>
+
+
+
+<!-- هنا صفحة ال فيها بطاقات -->
+    </div>
+    <div class="p3">
+
+      <h1 style="text-align: center; padding: 80px ; font-family: 'Staatliches', cursive;">Sales Department</h1>
+      <div class="container-fluid" style="margin: auto;">
+       
+        <section class="row" style="padding: 20px;">
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="work1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Department of watches</h5>
+                <p class="card-text">Here are the modern style watches made with advanced materials</p>
+                <a href="#" class="btn btn-primary">Go to the watches section</a>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="work2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Department of phones</h5>
+                <p class="card-text">To move to the world of modern phones that suit you, go to this section</p>
+                <a href="#" class="btn btn-primary">Go to the phones section</a>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="work3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Personal dependencies section</h5>
+                <p class="card-text">All the required man dependencies and supplements are on this page</p>
+                <a href="#" class="btn btn-primary">Move to the dependencies section</a>
+              </div>
+            </div>
+         </article>
+
+
+
+
+
+
+        </section>
+        <section class="row" style="padding: 20px;">
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="work4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Old style cameras</h5>
+                <p class="card-text">Old-fashioned cameras, a design that many people like</p>
+                <a href="#" class="btn btn-primary">Go to the old cameras section</a>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="work5.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern style cameras</h5>
+                <p class="card-text">  To move to the world of modernity from cameras with advanced lenses</p>
+                <a href="#" class="btn btn-primary">Go to the modern cameras section</a>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="work6.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">sunglasses</h5>
+                <p class="card-text">Nezazat is another world of elegance and sophistication in which you live</p>
+                <a href="#" class="btn btn-primary">Go to the glasses section</a>
+              </div>
+            </div>
+         </article>
+
+
+
+
+
+
+        </section>
+
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+    <!-- صفحة الصورة القديمة -->
+    <div id="p4"  >
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="blog1.webp" class="d-block w-100" alt="..." style="opacity: 0.7;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Eng:Basel M. Shaheen AL-shahkhrit</h5>
+              <p style="color: black;">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="blog2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;" >Eng:Basel M. Shaheen AL-shahkhrit</h5>
+              <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="blog3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;" >Eng:Basel M. Shaheen AL-shahkhrit</h5>
+              <p style="color: black;" >Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" >Next</span>
+        </a>
+      </div>
+
+
+
+    </div>
+    <!-- صفحة فريق العمل -->
+    <div id="p5">
+      <h1 style="text-align: center; padding:40px; font-family: 'Staatliches', cursive; ">Foundation members</h1>
+
+
+      <div class="container-fluid" style="margin: auto;">
+       
+        <section class="row" style="padding: 20px;">
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="team1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Department of watches</h5>
+                <p class="card-text">Here are the modern style watches made with advanced materials</p>
+                <a href="#" class="btn btn-primary">Go to the watches section</a>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="team2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Department of phones</h5>
+                <p class="card-text">To move to the world of modern phones that suit you, go to this section</p>
+                <a href="#" class="btn btn-primary">Go to the phones section</a>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="team3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Personal dependencies section</h5>
+                <p class="card-text">All the required man dependencies and supplements are on this page</p>
+                <a href="#" class="btn btn-primary">Move to the dependencies section</a>
+              </div>
+            </div>
+         </article>
+
+
+
+
+
+
+        </section>
+        <section class="row" style="padding: 20px;">
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="about1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Old style cameras</h5>
+                <p class="card-text">Old-fashioned cameras, a design that many people like</p>
+                <a href="#" class="btn btn-primary">Go to the old cameras section</a>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="about2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern style cameras</h5>
+                <p class="card-text">  To move to the world of modernity from cameras with advanced lenses</p>
+                <a href="#" class="btn btn-primary">Go to the modern cameras section</a>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card" style="width: 18rem; height: auto;">
+              <img src="work6.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">sunglasses</h5>
+                <p class="card-text">Nezazat is another world of elegance and sophistication in which you live</p>
+                <a href="#" class="btn btn-primary">Go to the glasses section</a>
+              </div>
+            </div>
+         </article>
+
+
+
+
+
+
+        </section>
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+    <div id="footer" >
+      <div>
+      <img src="logo-alt.webp" style="width: 20%; height: 100px;"/>
+    </div>
+    <h1 style="text-align: center; color: rgb(255, 255, 255);   font-family: 'Staatliches', cursive;">who are we</h1>
+    <div id="com" style="width: 30%; height: auto; float: left;">
+     
+    
+      <h1 style="color: blanchedalmond; padding: 10px;  font-family: 'Staatliches', cursive;" >Communicate via:</h1>
+   
+      <i class="fab fa-facebook"  style="font-size: 15px; padding: 20px; color: rgb(253, 243, 243);"> Fasebook</i>
+
+   
+      <i class="fab fa-twitter-square" style="font-size: 15px; padding: 20px; color: rgb(253, 243, 243);display: block; " > twitter</i>
+      <i class="fab fa-telegram" style="font-size: 15px; padding: 20px; color: rgb(253, 243, 243);display: block; "> telegram</i>
+      <i class="fas fa-envelope"  style="font-size: 15px; padding: 20px; color: rgb(253, 243, 243);display: block;">Email</i>
+    </div>
+     <!-- النص ذاخل الفوتر -->
+     
+     
+      <div id="text-footer " style="width: 40%; height: 320px; float: right;" >
+        <h1>bas el shaheen al shakhrit </h1>
+        
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
